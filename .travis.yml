@@ -18,7 +18,7 @@ script:
 - python ./manage.py test --keepdb
 deploy:
   provider: heroku
-  app: heroku-meet-travis
+  app: morning-falls-64827
   strategy: git
   api_key:
     secure: Xuevh8L8LZV4OuTaZ/uSKOavst/kGkOFH0DVHbeiYOvaMXx+6L8jA7NSVz80Ei3ipJuqdCgd5Hb1eROnhbMfJjCXCNDn4MlZUI9TRG9L+PplvEkh/kcxF5cfjTlZDvxR07EgO21tnXWrULweECveridd5DqUMvVxoJfB7EZgeqYR0f/OEzQAq5d4mSGlGOfIeWoZ38FSwzqJ+B8k6/orlQhbxjodLQrKsC3HU+coGLjplNoKieRMZtbAhclYGDWeLfs4aYVEOiOtfKQq0GSnvvlUgHrwuBVHaKxFavh5lJRutpGhT4ALSnWCD4dm4Cl1DcrOixX7lkvJMIapngxhZNVDxSI1iihujeLlxqqEkydYgV33UHPrGt/0ssy9qqWbZBE/rk1c1SVyv6ZTo0XawF+gGSga7ru6Kj8s5chgS1Ue4taeqiOr9t9DXQFMzi13hZ3pmeZXoM1evumIeqa8y2LfFHYFIdaPvDSSZAPRza0QwvfVmHONIcL4/iFdF6n5m3e6uA4K/OMHGJJwr0Owk+cI++wqtE7tssoB67coTVYpZecsZKw1glBHSAI+WcFfsPOSf5KWkieZmbUwHprLx3ThIz2go9aG6gm1jeV+SwQJPE2Ma4wMHM3aZuu/6xd7eu7UmsVkbgl4Wp16abJL15bK5mho3S7QMxPUkB7Aiqc=
